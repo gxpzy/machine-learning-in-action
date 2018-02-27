@@ -8,6 +8,9 @@ from numpy import *
 # there are 13 support vectors
 # the training error rate is 0.010000
 # the test error rate is 0.060000
+# linear kernel
+#    if kTup[0]=='lin':
+#       K = X * A.T   
 k1 = 1.3
 dataArr, labelArr = svmMLiA.loadDataSet('testSetRBF.txt')
 # (x1, x2) -> (x1^2, x2^2, 2^0.5*x1*x2)
